@@ -81,14 +81,6 @@ p {
   text-align: justify;
 }
 
-
-/********** Extra Large devices only **********/
-/*@media (min-width: 1200px) {
-  }
-  .navbar-left {
-    float: left !important;
-  }
-}*/
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-12 {
