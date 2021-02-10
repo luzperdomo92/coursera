@@ -45,9 +45,8 @@ body {
 }
 
 /*Main content*/
-h1 {
+.text-center {
   text-align: center;
-  margin: 50px;
   color: black;
 }
 
@@ -83,20 +82,24 @@ p {
 }
 
 
-
+/********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+  }
+  .navbar-left {
+    float: left !important;
+  }
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-12 {
     float: left;
     width: 95%;
-  }
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-12 {
     width: 95%;
     float: left;
-
   }
 }
 /********** Small devices only **********/
@@ -104,7 +107,6 @@ p {
   .col-sl-12 {
     width: 95%;
     float: left;
-
   }
 }
 /********** Extra small devices only **********/
